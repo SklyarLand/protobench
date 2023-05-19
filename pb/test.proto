@@ -2,9 +2,11 @@ syntax = "proto3";
 
 package pb;
 
+option go_package = "./pb";
+
 message BenchSmall {
     string action = 1;
-    bytes key = 2;
+    string key = 2;
 }
 
 message BenchMedium {
@@ -13,7 +15,7 @@ message BenchMedium {
     float height = 3;
     double weight = 4;
     bool alive = 5;
-    bytes desc = 6;
+    string desc = 6;
 }
 
 message BenchLarge {
@@ -22,11 +24,11 @@ message BenchLarge {
     float height = 3;
     double weight = 4;
     bool alive = 5;
-    bytes desc = 6;
+    string desc = 6;
     string nickname = 7;
     int64 num = 8;
     float flt = 9;
     double dbl = 10;
     bool tru = 11;
-    bytes data = 12;
+    string data = 12;
 }
