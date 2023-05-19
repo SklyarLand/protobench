@@ -1,4 +1,4 @@
-# Go Benchmark : JSON v. Protobuf v. Gojay v. Easyjson
+# Go Benchmark : JSON vs Protobuf vs Gojay vs Easyjson
 This small benchmark is done to test the differences in size and speed between 
 json and protobuf.
 
